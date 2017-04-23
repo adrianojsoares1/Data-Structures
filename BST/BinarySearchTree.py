@@ -147,21 +147,3 @@ class BinarySearchTree(object):
         if value == root.get_value():
             return True
         return False
-
-
-# Tests
-n = BinarySearchTree()
-n.insert(22)
-n.insert(12)
-n.insert(5)
-n.insert(25)
-n.insert(45)
-n.insert(14)
-n.insert(16)
-n.insert(40)
-n.insert(13)
-
-n.delete(11)
-
-print(n.pre_order_find(70))
-
