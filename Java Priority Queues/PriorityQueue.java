@@ -13,6 +13,13 @@ public class PriorityQueue {
         ids = new ArrayList<>();
         heap = new ArrayList<>();
     }
+    PriorityQueue(int[] args){
+        ids = new ArrayList<>();
+        heap = new ArrayList<>();
+
+        for(int i : args)
+            insert(i);
+    }
     //If theres a hole, replace process x from null with a new Process
     void insert(Integer i) {
         boolean found_hole = false;
@@ -95,7 +102,6 @@ public class PriorityQueue {
         Process temp;
         rightID = right(id);
         leftID = left(id);
-        System.out.println(id);
         if(rightID < heap.size() || leftID < heap.size()) {
             if (rightID >= heap.size()){
                 min = leftID;
@@ -146,7 +152,6 @@ public class PriorityQueue {
             ids.set(heap.get(0).get_id(), null);
             heap.set(index, heap.get(heap.size() - 1));
             heap.remove(heap.size() - 1);
-            System.out.println("Heaping down with heap index: " + index + " which contains " + heap.get(index).get_priority());
             heap_down(index);
             return temp.get_priority();
         }
