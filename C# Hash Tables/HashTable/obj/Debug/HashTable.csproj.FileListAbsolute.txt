@@ -1,0 +1,6 @@
+c:\users\adriano\documents\visual studio 2017\Projects\HashTable\HashTable\bin\Debug\HashTable.exe.config
+c:\users\adriano\documents\visual studio 2017\Projects\HashTable\HashTable\bin\Debug\HashTable.exe
+c:\users\adriano\documents\visual studio 2017\Projects\HashTable\HashTable\bin\Debug\HashTable.pdb
+c:\users\adriano\documents\visual studio 2017\Projects\HashTable\HashTable\obj\Debug\HashTable.csprojResolveAssemblyReference.cache
+c:\users\adriano\documents\visual studio 2017\Projects\HashTable\HashTable\obj\Debug\HashTable.exe
+c:\users\adriano\documents\visual studio 2017\Projects\HashTable\HashTable\obj\Debug\HashTable.pdb
